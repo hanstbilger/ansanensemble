@@ -17,7 +17,7 @@ body {
 .navbar-brand {
     color: white;
     cursor: pointer;
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 600;
     margin-left: 1em;
@@ -262,7 +262,6 @@ body {
 }
 
 .footer {
-    position:relative;
     font-family: 'Sorts Mill Goudy', serif;
     font-size: 12px;
     font-weight: 500;
