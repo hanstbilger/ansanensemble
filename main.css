@@ -1,0 +1,367 @@
+body {
+    padding-top: 6em;
+    margin: 0;
+    background: #000000 !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 8px 8px -6px
+}
+
+.nav-link,
+.navbar-brand {
+    color: white;
+    cursor: pointer;
+    font-size: 36px;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.navbar-toggler{
+    color: #ffffff;
+    font-size: 0.75em;
+    outline: none;
+    border: none;
+    padding:0em;
+    margin:0em;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url("assets/KM105081 2.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.overlay2 {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron-bio-text{
+  font-family: '', serif;
+  font-weight: 500;
+  color: rgba(0,0,0,0.95);
+}
+
+.jumbotron-shows-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 500;
+  color: rgba(255,255,255, .95);
+}
+
+.jumbotron-discography-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 500;
+  color: rgba(0,0,0,0.95);
+  text-align: center;
+}
+
+.jumbotron-contact-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 500;
+  font-color: rgba(0,0,0,0.5);
+  text-align: right;
+  padding-top: 4em;
+}
+
+.jumbotron-epk-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 5vw;
+  font-weight: 500;
+  color: rgba(204, 223, 241, 0.85);
+  text-align: center;
+  padding-top: 0%;
+  padding-right: 0%;
+}
+
+.jumbotron-fluid{
+  width: 100vw;
+}
+
+.epk.albumart{
+  margin-top: 3em;
+}
+
+.bio-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  color: rgba(255,255,255,.85);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+  margin-top: 2.5em;
+  padding-bottom: 15em;
+}
+
+.epk-bio-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.smallcaps{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+
+}
+
+.smalltext{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255,255,255,.85)
+}
+
+.page-header{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 500;
+  color: rgba(122,29,33,1);
+}
+
+.show-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-color: rgba(0,0,0,1);
+  margin-top: 0em;
+  padding-bottom: 0em;
+  martin-bottom: 0em;
+  padding-bottom: 0em;
+}
+
+.firstcharacter{
+  color: inherit;
+  float: left;
+  font-family: inherit;
+  font-size: 65px;
+  line-height: 50px;
+  padding-top: 13px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.epk-bio-text-bold{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 160%;
+  font-color: rgba(0,0,0,1);
+  margin-top: 0em;
+  padding-bottom: 0em;
+}
+
+#jumbotron-shows{
+  background-image: url('assets/DSC3226_pointcrop.jpg');
+  background-size: cover;
+  background-position: 50% 65%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#jumbotron-discography{
+  background-image: url('assets/DSC3041_goods.jpg');
+  background-size: cover;
+  background-position: 50% 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#jumbotron-bio{
+  background-image: url('assets/KM105075.JPG');
+  background-size: cover;
+  background-position: 50% 9%;
+  padding-top: 13%;
+  padding-bottom: 13%;
+}
+
+#jumbotron-press{
+  background-image: url('assets/DSC3114_blue1.jpg');
+  background-size: cover;
+  background-position: 50% 35%;
+  padding-top: 20%;
+  paddint-bottom: 20%;
+}
+
+
+#jumbotron-epk{
+  background-image: url('assets/DSC3409_smile1crop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat bottom center;
+  background-position: 20% 22%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.epk-heading{
+    font-family: 'Helvetica Neue', serif;
+    font-weight: 300;
+    font-color: rgba(0,0,0,1);
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.epk-subheading{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    font-color: rgba(0,0,0,1);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.epk-heading-arbiter{
+    font-family: 'Helvetica Neue', serif;
+    font-weight: 300;
+    font-color: rgba(0,0,0,1);
+    margin-top: 25%;
+    margin-bottom: 1em;
+}
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.footer {
+    position:relative;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.95);
+    padding-top: 5%;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.btn-epk-bio-photo{
+  border-color: black;
+  margin-top: 1em;
+}
+
+.btn-epk-socials{
+  margin-top: 0em;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+.btn-epk-album-photo{
+  border-color: black;
+  margin-top: 1em;
+}
+
+.btn-epk-link-hans{
+  border-color: black;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center
+}
+
+.btn-shows{
+  border-color: black;
+  padding-top: 3em;
+}
+
+.social-btns{
+  text-align: center;
+ }
+
+.btn-facebook{
+  padding-right: 2em;
+}
+
+.copyright{
+  text-align: center;
+  padding-top: 1em;
+}
+
+.features {
+	margin: 4em auto;
+	padding: 1em auto;
+	position: relative;
+  font-family: 'Sorts Mill Goudy', serif;
+  text-align: center;
+}
+.feature-title {
+	color: #333;
+  font-family: 'Sorts Mill Goudy', serif;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+  text-align: center;
+}
+
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.container-contact{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-color: rgba(0,0,0,1);
+  margin-top: 10em;
+  padding-bottom: 15em;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:75vh;
+  height: 75vh;
+  object-fit: contain;
+}
+
+
+.list-group-item {
+  background-color: rgba(0,0,0,1)
+}
+
+.mb-1{
+  color: rgba(255,255,255, .85)
+}
+
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
