@@ -6,6 +6,7 @@ body {
 
 .navbar {
     background-color: black;
+    min-height: 40px;
 }
 
 
@@ -16,26 +17,23 @@ body {
 .nav-link,
 .navbar-brand {
     color: white;
-    cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 600;
-    margin-left: 1em;
 }
 
 .navbar-toggler{
     color: #ffffff;
-    font-size: 0.75em;
+    font-size: 1.25em;
     outline: none;
     border: none;
-    padding:0em;
-    margin:0em;
 }
+
 
 .nav-link {
     margin-right: 1em !important;
     font-family: 'Sorts Mill Goudy', serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
     color: white;
 }
@@ -51,13 +49,19 @@ body {
     background-image: url("assets/KM105081 2.JPG");
     background-size: cover;
     background-position: center;
-    position: relative;
+    position:relative;
     height: 100%;
+    margin-top: -30px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0;
+  }
+  @media (max-width: 575.98px) {
+    .header{
+      background-position:92%
+    }
 }
-
-
 .overlay {
-    position: absolute;
+    position: absolute
     min-height: 100%;
     min-width: 100%;
     left: 0;
@@ -129,6 +133,13 @@ body {
   padding-bottom: 15em;
 }
 
+.contact-text{
+  font-family: 'Sorts Mill Goudy', serif;
+  color: rgba(255,255,255,.85);
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .epk-bio-text{
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 20px;
@@ -155,6 +166,7 @@ body {
   font-family: 'Sorts Mill Goudy', serif;
   font-weight: 500;
   color: rgba(122,29,33,1);
+
 }
 
 .show-text{
@@ -361,6 +373,6 @@ body {
 }
 
 
-.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.video-container {position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;}
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
